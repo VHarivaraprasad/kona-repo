@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(125, 126, 127);
+}
+
+.logo {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 45px;
+}
+
+
+header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: rgb(41, 39, 39);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+    padding: 25px 0;
+    display: block;
+    margin-right: 20px;
+}
+
+
+
+ul li ul.dropdown li {
+    display: block;
+    background: #ffffff;
+    margin: 2px 0px;
+    }
+    ul li ul.dropdown {
+    width:auto;
+    background: #aaabab;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    }
+    ul li a:hover {
+    background: #e5e2e2;
+    }
+    ul li:hover ul.dropdown{
+    display: block;
+    }
+    
+.start-now{
+    margin-top: 15px;
+    height: 45px;
+    width: 100%;
+    font-size: 24px;
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 10px 24px !important;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.start-now:hover{
+    background: #000c60;
+}
+
+
+.item {
+    /* background-color: #4CAF50; */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.text-content {
+    color: white;
+    max-width: 60%;
+}
+
+.text-content h1{
+    font-size: 40px;
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 40px;
+}
+
+.text-content p{
+    font-size: 20px;
+    color: black;
+}
+
+.image-content {
+    max-width: 35%;
+    transition: transform 0.3s ease;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-content:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
