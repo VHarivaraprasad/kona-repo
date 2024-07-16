@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
     color: rgb(125, 126, 127);
@@ -23,16 +23,6 @@ header {
     color: rgb(41, 39, 39);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-
-/* .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-
-
 
 nav ul {
     list-style: none;
@@ -94,177 +84,41 @@ ul li ul.dropdown li {
     background: #000c60;
 }
 
-
-.item {
-    /* background-color: #4CAF50; */
-    background-image: url(https://kona-digital.com/images/productbanner.jpg);
-    margin: 20px 0;
-    padding: 100px;
-    border-radius: 10px;
+.need-help{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
+    gap: 5rem;
 }
-
-.text-content {
-    color: white;
-    
-    max-width: 60%;
+.need-help-1{
+    padding-top: 5rem;
+    margin-left: 1rem;
 }
-
-.text-content h1{
+.need-help-1 h1{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
     font-size: 40px;
-    background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
+    font-weight: 500;
+    margin: 20px 0 10px;
     -webkit-background-clip: text;
-    
     -webkit-text-fill-color: transparent;
-    margin: 0 0 40px;
 }
-
-.text-content p{
-    font-size: 20px;
-    color: black;
-}
-
-.image-content {
-    max-width: 35%;
-    transition: transform 0.3s ease;
-}
-
-.image-content img {
-    width: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.image-content:hover {
-    transform: scale(1.1);
-}
-
-.ask-btn {
-    color:#fff;
-    background: linear-gradient(90deg, #4e3bbf, #a928d8);
-    border-radius: 5px;
-    padding: 12px;
-    margin-top: 15px;
-    font-size: 22px;
-    border: none;
-    cursor:pointer;
-}
-
-
-.item-one {
-    /* background-color: #4CAF50; */
-    /* margin: 50px 50px; */
-    /* align-items: center; */
-    padding: 60px;
-    /* border-radius: 10px; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-.txt-con {
-    color: white;
-    
-    max-width: 100%;
-}
-
-.txt-con h1{
-    font-size: 40px;
-    margin-left: 200px;
-    background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
-    -webkit-background-clip: text;
-    
-    -webkit-text-fill-color: transparent;
-    /* margin: 0 0 40px; */
-}
-
-.txt-con p{
-    font-size: 18px;
-    color: black;
-    padding-left: 180px;
+.need-help-1 p{
     padding-top: 20px;
-    padding-right: 180px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 15px;
 }
 
-
-.kona-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-left: 75px;
-    padding-right: 75px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
-}
-
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* border: 1px solid #ccc; */
-    padding: 20px;
-}
-
-.grid-item h1{
-    color: #272657;
-}
-
-.grid-item p{
-    font-weight: lighter;
-    color:#193559
-}
-
-.grid-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-.item-two {
-        /* background-image: url(https://kona-digital.com/images/productbanner.jpg); */
-        margin: 20px 0;
-        padding: 100px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        overflow: hidden;
-}
-
-
-.image-one {
-    max-width: 35%;
-    transition: transform 0.3s ease;
-}
-
-.textcon-one {
-    /* color: white; */
-    
-    max-width: 100%;
-}
-
-.insights-btn {
-    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.99%, #6BCD94 100%);
-    color: #ffffff;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 24px;
+#ask-for-demo {
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    color: #fff;
+    padding: 12px;
+    border-radius: 2px;
     border: none;
 }
 
-.textcon-one h1{
+
+
+.services{
+    text-align: center;
+}
+.services h2{
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
     font-size: 50px;
     font-weight: 500;
@@ -272,23 +126,48 @@ ul li ul.dropdown li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-.textcon-one p{
+.services img{
+    margin-top: -60px;
+}
+#rows{
+    padding: 10px 40px;
+}
+.rows{
+    display: flex;
+    padding: 3rem 7rem;
+    gap: 3.2rem;
+}
+.row-matter{
+    width: 50%;
+}
+.row-matter h6{
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+    padding: 18px;
     color: black;
+    display: inline-block;
+    border-radius: 30px;
+}
+.row-matter h4{
+    margin: 20px 30px 20px 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+}
+.row-matter span{
+    color: #999;
+}
+.row-img{
+    width: 50%;
+}
+.row-img img{
+    width: 35rem;
+}
+#row2{
+    margin: 0px 0px 0px -2rem;
 }
 
-.tick-mark {
-    padding: 10px 0px 0;
-    color: black;
-}
-
-strong {
-    color: #a928d8;
-}
-
-.item-two {
-    /* padding: 120px 0; */
-    background: linear-gradient(180deg, #F0F9F8 0%, rgba(240, 249, 248, 0) 100%);
+#row4 img{
+    width: 33rem;
 }
 
 
@@ -357,6 +236,7 @@ details[open] summary:after {
     margin-left: 300px;
     margin-bottom: 30px;
 }
+
 
 .image-content1 {
     margin: 0;
@@ -473,27 +353,3 @@ details[open] summary:after {
     height: 100%;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

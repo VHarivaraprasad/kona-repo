@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: "Poppins";
     margin: 0;
     padding: 0;
     color: rgb(125, 126, 127);
@@ -153,6 +153,21 @@ ul li ul.dropdown li {
     cursor:pointer;
 }
 
+.ak-btn {
+
+    /* color:#fff; */
+    /* background: linear-gradient(90deg, #4e3bbf, #a928d8); */
+    color: #000c60;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 22px;
+    border: solid;
+    border-color: #000c60;
+    cursor:pointer;
+
+}
+
 
 .item-one {
     /* background-color: #4CAF50; */
@@ -193,78 +208,25 @@ ul li ul.dropdown li {
 }
 
 
-.kona-grid {
+#monitor-user{
+    margin: 20px 8rem;
+}
+
+.monitor-user{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding-left: 75px;
-    padding-right: 75px;
+    gap: 5rem;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
+.monitor-user-2{
+    padding-top: 5rem;
 }
-
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* border: 1px solid #ccc; */
-    padding: 20px;
-}
-
-.grid-item h1{
-    color: #272657;
-}
-
-.grid-item p{
-    font-weight: lighter;
-    color:#193559
-}
-
-.grid-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-.item-two {
-        /* background-image: url(https://kona-digital.com/images/productbanner.jpg); */
-        margin: 20px 0;
-        padding: 100px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        overflow: hidden;
-}
-
-
-.image-one {
-    max-width: 35%;
-    transition: transform 0.3s ease;
-}
-
-.textcon-one {
-    /* color: white; */
-    
-    max-width: 100%;
-}
-
-.insights-btn {
+.monitor-user-2 h6{
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.99%, #6BCD94 100%);
-    color: #ffffff;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 24px;
-    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
 }
-
-.textcon-one h1{
+.monitor-user-2 h3{
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
     font-size: 50px;
     font-weight: 500;
@@ -273,22 +235,224 @@ ul li ul.dropdown li {
     -webkit-text-fill-color: transparent;
 }
 
-.textcon-one p{
+.monitor-user-2 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#insights p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.tickmark{
+    padding: 10px 0 0;
+}
+.tickmark i{
+    padding-right: 5px;
+    color: #8869e9;
+}
+.what-can{
+    padding: 6rem 8rem;
+    background-image: url("https://kona-digital.com/images/whatcanbg.svg");
+}
+
+.what-can h2{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.whaticons{
+    display: flex;
+    padding: 130px 0 0;
+    gap: 4rem;
+}
+.whaticons li{
+    list-style-type: none;
+    width: 20%;
+}
+#limited-time{
+    text-align: center;
+    padding: 10rem 0px;
+}
+.limited-time h6{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.99%, #6BCD94 100%);
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.limited-time h3{
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.google{
+    display: flex; 
+}
+.google li{
+    list-style-type: none;
+    width: 16%;
+    text-align: center;
+}
+.alternate{
+    padding-top: 150px;
+}
+
+
+/* #Q-A{
+    padding-top: 5rem;
+ }
+ 
+ .Q-A{
+    text-align: center;
+ }
+ .Q-A h1{
+    color: #000c60;
+    font-weight: 600;
+    font-size: 40px;
+ }
+ 
+ .accordion-header button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px;
+ }
+ .accordion-button:focus,
+ .accordion-button:not(.collapsed) {
+    color: rgb(118, 51, 202);
+    background-color: transparent;
+    box-shadow: none;
+ }
+ .accordion-item{
+    background-color: none;
+ }
+ .accordion {
+    padding: 70px 220px;
+ } */
+
+#lets-connect {
+    display: flex;
+    margin: 0px 80px 0px -82px;
+ 
+ }
+ .lets-connect{
+    text-align: center;
+    padding: 7rem 12.8rem;
+ }
+ .lets-connect h1{
+    
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: linear-gradient(90deg, #5938c3, #a02ad6);
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .lets-connect p{
+    font-size: 16px;
+     font-weight: 480;
+     padding-top: 20px;
+     padding-bottom: 15px;
+ }
+ .lets-img{
+    margin-left: -10rem;
+ }
+ .lets-img img{
+    height: 27rem;
+ }
+ .lets-connect button{
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+     display: inline-block;
+     color: #fff;
+     border: none;
+     padding: 10px 24px !important;
+     border-radius: 8px;
+ }
+ .footer{
+    display: flex;
+    gap: 5rem;
+    
+ }
+  #footer{
+    margin: 6rem 0rem 2rem 9rem; ;
+ } 
+ #footer-1{
+    margin-left: 3rem;
+ }
+ #footer-1 img{
+    max-height: 40px;
+ }
+ #footer-1 p{
+    font-size: 12px;
+    padding-top: 20px;
+ }
+ /* #footer-2{
+    margin-left: 3rem ;
+ } */
+ #footer-4 ul, #footer-3 ul, #footer-2 ul{
+    list-style-type: none;
+             padding: 0;
+             margin: 0;
+ 
+ }
+ #footer-2 a, #footer-3 a, #footer-4 a{
     color: black;
-}
+ }
+ #footer-2 h4, #footer-4 h4, #footer-3 h4, #footer-5 h4{
+    color: rgb(0,12,96);
+    font-size: 17px;
+ }
+ .footer-img{
+    position: absolute;
+    right: 44px;
+    top: 213rem;
+    width: 12rem;
+ }
 
-.tick-mark {
-    padding: 10px 0px 0;
-    color: black;
-}
+ .footer a{
+    text-decoration: none;
+ }
 
-strong {
-    color: #a928d8;
-}
 
-.item-two {
-    /* padding: 120px 0; */
-    background: linear-gradient(180deg, #F0F9F8 0%, rgba(240, 249, 248, 0) 100%);
+
+
+
+
+
+
+
+
+
+.modal-header{
+   background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+   
+    border: 0;
+    color: white;
+}
+.modal-title {
+   margin-left: 1.2rem;
+   font-size: 25px;
+}
+.phone{
+   display: flex;
+}
+.btn-secondary{
+   width: 100%;
+}
+.modal-dialog{
+   top: 60px;
+   width: 400px;
+}
+.name{
+   padding-bottom: 20px;
+}
+.email{
+   padding-top: 20px;
+   padding-bottom: 10px;
 }
 
 
@@ -357,6 +521,7 @@ details[open] summary:after {
     margin-left: 300px;
     margin-bottom: 30px;
 }
+
 
 .image-content1 {
     margin: 0;
@@ -473,27 +638,3 @@ details[open] summary:after {
     height: 100%;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
